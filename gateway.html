@@ -28,11 +28,15 @@
     <h1 class="text-center">SwiftCheck Gateway</h1>
     <hr>
     <div>
-        <p>출석코드를 입력하여 출석페이지로 이동하세요.</p>
+        <p>출석코드(1CD.ME/출석코드)를 입력하여 출석페이지로 이동하세요.
+            <span style="color: #D81B60">분홍색은 숫자</span>,
+            <span style="color: #1E88E5">파란색은 기호</span>입니다.
+        </p>
         <form action="">
             <div class="">
                 <label for="gate_code">출석코드 3자리:</label>
-                <input id="gate_code" class="form-control text-center form-control-lg" type="text" placeholder="XXX" aria-label="출석코드 3자리 입력" maxlength="3">
+                <input id="gate_code" class="form-control text-center form-control-lg" type="text" placeholder="XXX"
+                       aria-label="출석코드 3자리 입력" maxlength="3">
             </div>
             <div class="d-grid gap mt-3">
                 <button class="btn btn-lg btn-outline-success" type="submit">출석 사이트로 이동</button>
